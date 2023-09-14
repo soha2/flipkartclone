@@ -1,0 +1,166 @@
+.navbar{
+    display: inline-flex;
+    background-color: blue;
+    margin-top: 0px;
+    height: 60px;
+    width: 100%;
+    padding-top: 0%;
+}
+
+ .logo{
+    margin-left: 15%;
+    margin-top: 15px;
+ }
+  
+  
+  .search-container {
+    margin-left: 35px;
+    margin-top: 15px;
+    display:  inline-block;
+    align-items: center;
+}
+
+.search-input {
+    width: 420px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.login{
+    background-color: white;
+    color: #007BFF;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border: none;
+    width: 60px;
+    height: 35px;
+}
+#become{
+    display: inline-flex;
+    color: white;
+    font: bold;
+    padding-right: 2px;
+   margin-left: 80px;
+   margin-top: 7px;
+   
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-bottom: #ccc;
+    box-shadow: #0b0b0b;
+   
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #ffffff;
+    color: #0b0b0b;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(248, 247, 247, 0.2);
+    z-index: 1;
+    
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: #474444;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Change the background color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #fefdfd;
+}
+
+/* Show the dropdown content when the button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;}
+/* Style the container */
+.best1 {
+    display: flex;
+     padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    align-items: center; /* Vertically center items within the container */
+}
+
+/* Style the heading */
+.best1 h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 2px;
+}
+
+/* Style the "View All" button */
+.best1 .view {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+
+/* Style the image container */
+.best1 .pic {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Add horizontal scrollbar if needed */
+}
+
+/* Style individual images */
+.best1 .pic img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-right: 20px; /* Add some spacing between images */
+}
+.last{
+    
+    background-color: rgb(22, 22, 76);
+    color: white;
+    display: flex;
+    margin-right: 60px;
+}
+
+#about{
+    margin-left: 20px;
+}
